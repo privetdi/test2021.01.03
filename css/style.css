@@ -1,6 +1,18 @@
+@font-face {
+    font-family: 'Nunito Sans'; 
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+        
+}
+@font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+    font-family: 'Yeseva One'; 
+    font-weight: 400;
+}
+
 body {
     margin:0;
-    font-family: Nunito Sans, Arial;
+
 }
 
 body * {
@@ -13,6 +25,8 @@ body * {
 }
 
 .button {
+    font-family: 'Nunito Sans';
+    font-style: italic;
     background: #E3B873;
     box-shadow: 2px;
     border-radius: 2px;
@@ -28,19 +42,22 @@ body * {
 }
 
 .header {
-    background-color: blakc;
+    background-color: black;
+    
 }
 
-.header-content{
+.head-content{
     display: flex;
-    justify-content: space-between;
     height: 83px;
     align-items: center;
+    justify-content: center;
 }
 
 .header-navigation {
     list-style: none;
     display: flex;
+    font-family: 'Nunito Sans';.
+    text-transform: uppercase;
 }
 
 .header-navigation__item {
@@ -73,20 +90,26 @@ body * {
 .hero-container {
     position: relative;
     z-index: 1;
+    max-width: 37%;
+    margin-left: 10%;
 }
 
+
 .title{
-    margin:0;
-    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF 
+}
+.basic{
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
-
-    color: #FFFFFF
-    
-
-
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
 }
-
