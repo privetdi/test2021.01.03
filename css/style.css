@@ -20,7 +20,7 @@ body * {
 }
 
 .container {
-    max-width: 1250px;
+  /* max-width: 1250px; */
     margin: 0 auto;
 }
 
@@ -35,6 +35,15 @@ body * {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;
+    height: 51px;
+}
+.button.buttonNav{
+    
+}
+
+.button.ghost{
+    background: transparent;
+    border: 1px solid white;
 }
 
 .logo {
@@ -50,18 +59,18 @@ body * {
     display: flex;
     height: 83px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .header-navigation {
     list-style: none;
     display: flex;
-    font-family: 'Nunito Sans';.
+    font-family: 'Nunito Sans';
     text-transform: uppercase;
 }
 
 .header-navigation__item {
-    margin-right: 47px;
+    margin-right: 70px;
 }
 
 .header-navigation__item a{
