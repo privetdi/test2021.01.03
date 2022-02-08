@@ -91,16 +91,17 @@ body * {
 }
 
 
-.header-navigation__item, a{
-    text-decoration: none;
-    color: white;
-}
-.phone a rnd{
+
+.phone  rnd{
     color: #E3B873;
     text-decoration: underline;
 }
-
-
+.header-navigation__item{
+    color: #E3B873;
+}
+li.header-navigation__item:not(:first-child):not(:last-child) {
+    color: white;
+}
 
 
 
@@ -152,6 +153,5 @@ a, .rnd{
     margin-bottom: 20px;
 }
 
-ul :not(:first-child)  :not(:last-child){
-    color: red;
-}
+
+
