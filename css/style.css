@@ -153,5 +153,76 @@ a, .rnd{
     margin-bottom: 20px;
 }
 
+.hero_two{
+    background-color:#131313 ;
+    margin: 0px;
+
+}
+.background_black, .titletown{
+    display: flex;
+}
+
+.carousel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;       
+    grid-template-rows: 1fr 1fr 1fr;  
+    grid-gap: 2vw;    
+}
+
+.carousel-text_1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.carousel{
+    width: 35%;
+}
+
+h1.carouselCT{
+    color: #E3B873;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+}
+
+h2.carouselCT{
+    color:  #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
 
 
+}
+
+.carousel-button{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carouselarrow{
+    width: 100%;
+}
+
+h1.town{
+    margin-right: 60px;
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+}
