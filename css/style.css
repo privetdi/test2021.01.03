@@ -30,8 +30,9 @@ body * {
     box-sizing: border-box;
 }
 
+
 .container {
-  /* max-width: 1250px; */
+   max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -73,6 +74,12 @@ body * {
     height: 83px;
     align-items: center;
     justify-content: space-around;
+
+}
+
+.head-content {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header-navigation {
@@ -111,6 +118,7 @@ li.header-navigation__item:not(:first-child):not(:last-child) {
     height: 707px;
     padding-top: 194px;
     position: relative;
+    
 }
 
 .hero-overlay {
@@ -121,13 +129,14 @@ li.header-navigation__item:not(:first-child):not(:last-child) {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
+    
 }
 
 .hero-container {
     position: relative;
     z-index: 1;
-    max-width: 37%;
-    margin-left: 10%;
+    background-color: red;
+    padding-right: 40%;
 }
 a, .rnd{
     color: #E3B873;
@@ -153,13 +162,30 @@ a, .rnd{
     margin-bottom: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .hero_two{
     background-color:#131313 ;
-    margin: 0px;
+    
 
 }
 .background_black, .titletown{
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.background_black{
+    padding: 134px 107px;
 }
 
 .carousel{
@@ -178,6 +204,14 @@ a, .rnd{
 
 .carousel{
     width: 35%;
+    margin: 25px;
+}
+
+.carouselCT{
+    padding-right: 21px;
+}
+.presentation{
+    padding-left: 21px;
 }
 
 h1.carouselCT{
