@@ -172,20 +172,27 @@ a, .rnd{
 
 
 
-.hero_two{
+.background_black{
     background-color:#131313 ;
     
 
 }
-.background_black, .titletown{
+.titletown{
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
 
 }
+.herotwoup{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
-.background_black{
+.herotwoup{
     padding: 134px 107px;
+    padding-bottom: 416px;
+
 }
 
 .carousel{
@@ -259,4 +266,26 @@ h1.town{
     line-height: 19px;
     text-transform: uppercase;
 
+}
+
+
+.background_white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.herotwodown{
+    display: flex;
+}
+.video{
+    max-width: 817px;
+    margin-top: -208px;
+}
+h3.article{
+    max-width: 681px;
+}
+
+.line.dash{
+    margin-top: 62px;
 }
