@@ -181,18 +181,53 @@ a, .rnd{
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
+    margin-top: -45px;
+
 
 }
 .herotwoup{
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
+    padding: 134px 107px;
 }
 
-.herotwoup{
-    padding: 134px 107px;
-    padding-bottom: 416px;
 
+.herotwocentr{
+
+    padding-bottom: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.title_delimiter{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 92px;
+    margin-bottom: 8px;
+}
+
+.line{
+    max-width: 32px;
+}
+
+.iconcam{
+    display: flex;
+    max-width: 114px;
+    margin: 4px;
+}
+
+.line.cam{
+    max-height: 28px;
+    margin: 5px;  
 }
 
 .carousel{
@@ -211,7 +246,6 @@ a, .rnd{
 
 .carousel{
     width: 35%;
-    margin: 25px;
 }
 
 .carouselCT{
@@ -230,6 +264,7 @@ h1.carouselCT{
     line-height: 37px;
     letter-spacing: -0.07em;
     text-transform: uppercase;
+    margin-top: 0px;
 }
 
 h2.carouselCT{
