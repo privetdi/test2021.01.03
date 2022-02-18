@@ -177,7 +177,7 @@ a, .rnd{
     
 
 }
-.titletown{
+.herotwotitle{
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
@@ -185,6 +185,9 @@ a, .rnd{
 
 
 }
+
+
+
 .herotwoup{
     display: flex;
     max-width: 1440px;
@@ -193,14 +196,16 @@ a, .rnd{
 }
 
 
-.herotwocentr{
-
-    padding-bottom: 257px;
+.herotwotitle.titleone, .herotwotitle.titletwo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.titleone{
+    padding-bottom: 257px;
+}
+
 
 h1.title_delimiter{
     font-family: 'Yeseva One';
@@ -210,9 +215,15 @@ h1.title_delimiter{
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+
     margin-top: 92px;
     margin-bottom: 8px;
+}
+h1.camerabloc{
+    color: #FFFFFF;
+}
+h1.twotitle{
+    color: rgba(24, 24, 24, 1);
 }
 
 .line{
@@ -310,7 +321,7 @@ h1.town{
     align-items: center;
     background-color: white;
 }
-.herotwodown{
+.herotwovideo{
     display: flex;
 }
 .video{
@@ -324,3 +335,38 @@ h3.article{
 .line.dash{
     margin-top: 62px;
 }
+
+
+
+
+label{
+    display: inline-block;
+}
+
+.contactsuser{
+    display: flex;
+    align-items: flex-end;
+}
+
+.button.form{
+    max-width: 200px;
+}
+
+p.name, p.phone{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    margin-bottom:7px;
+
+}
+
+input.iname, input.iphone{
+    border: 1px rgba(54, 54, 54, 0.3);
+    border-bottom-style: solid;
+    margin-right: 58px;
+    display: block;
+}
+
