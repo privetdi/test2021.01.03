@@ -370,3 +370,45 @@ input.iname, input.iphone{
     display: block;
 }
 
+.container-centr.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-text{
+/*     padding: 38px; */
+    margin-top: -100px;
+    background-color: blue;
+    z-index: 2;
+}
+
+.contentinterior{
+    background-color: red;
+    margin: 30px;
+
+}
+
+p.intaier{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin: 34px 25px;
+}
+
+li.intaier{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+
+.button.contentfrom{
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
+}
