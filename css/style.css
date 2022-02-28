@@ -412,3 +412,67 @@ li.intaier{
     font-size: 18px;
     line-height: 25px;
 }
+
+div.order-call{
+  display: flex;
+}
+div.order-services{
+    background-image: url(/images/background_i.png);
+}
+div.services-container{
+    display: flex;
+    align-items: center;
+}
+
+div.circle{
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+}
+
+div.order-contacts{
+
+}
+
+
+
+h1.order-contacts{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p.name-order, p.phone-order{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+/*     color: rgba(255, 255, 255, 0.5); */
+    }
+input.iname-order, input.iphone-order{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    border: 1px rgba(54, 54, 54, 0.3);
+    border-bottom-style: solid;
+    margin-right: 58px;
+    display: block;
+}
+input.iphone-order, input.iname-order{
+
+}
+
+
+form.order-contacts, input.iname-order, input.iphone-order{
+    background-color: #131313;
+    color: #FFFFFF;
+}
+
