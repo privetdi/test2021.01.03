@@ -38,7 +38,7 @@ body * {
 
 .button {
     font-family: 'Nunito Sans'; 
-    font-style: italic;
+/*     font-style: italic; */
     font-weight: 400;
     background: #E3B873;
     box-shadow: 2px;
@@ -415,6 +415,8 @@ li.intaier{
 
 div.order-call{
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 div.order-services{
     background-image: url(/images/background_i.png);
@@ -429,13 +431,18 @@ div.circle{
     border: 8px solid #FFFFFF;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
     border-radius: 30px;
+    margin-left: 249px;
+}
+p.services{
+    max-width: 316px;
 }
 
 div.order-contacts{
-
 }
 
-
+form.order-contacts{
+    padding: 29px 49px;
+}
 
 h1.order-contacts{
     font-family: 'Nunito Sans';
@@ -445,17 +452,19 @@ h1.order-contacts{
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+
 }
 
-p.name-order, p.phone-order{
+p.name-order, p.phone-order, p.email-order{
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 21px;
-/*     color: rgba(255, 255, 255, 0.5); */
+   color: rgba(255, 255, 255, 0.5); 
     }
-input.iname-order, input.iphone-order{
+
+input.iname-order, input.iphone-order, input.iemail-order{
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
@@ -465,14 +474,26 @@ input.iname-order, input.iphone-order{
     border-bottom-style: solid;
     margin-right: 58px;
     display: block;
+    width: 100%;
+    
 }
-input.iphone-order, input.iname-order{
 
-}
-
-
-form.order-contacts, input.iname-order, input.iphone-order{
+form.order-contacts, input.iname-order, input.iphone-order, input.iemail-order{
     background-color: #131313;
     color: #FFFFFF;
+    
 }
 
+p.checkbox-order{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+
+}
+
+div.circle.pig{
+    border:0px;
+}
