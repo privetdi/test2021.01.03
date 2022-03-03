@@ -417,24 +417,53 @@ div.order-call{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 104px;
 }
 div.order-services{
     background-image: url(/images/background_i.png);
+    background-repeat: no-repeat;
 }
 div.services-container{
     display: flex;
     align-items: center;
+    margin-bottom: 102px;
 }
 
 div.circle{
     background: #E3B873;
     border: 8px solid #FFFFFF;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
-    border-radius: 30px;
+    border-radius: 50px;
     margin-left: 249px;
+
 }
+
+p.circle-services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    width: 41px;
+    height: 41px;
+}
+
 p.services{
     max-width: 316px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
 }
 
 div.order-contacts{
@@ -494,6 +523,46 @@ p.checkbox-order{
 
 }
 
+div.order-donat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 div.circle.pig{
-    border:0px;
+    width: 72px;
+    height: 72px;
+    border: 1px;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 38px 31px;
+}
+
+img.pig{
+    Width:40px;
+    Height:33px;
+}
+
+p.order-donat{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    max-width: 344px;
+}
+
+button.order{
+    margin: ;
+}
+
+div.conteiner-button{
+    display: flex;
+    justify-content: flex-end;
 }
