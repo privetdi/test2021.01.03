@@ -566,3 +566,52 @@ div.conteiner-button{
     display: flex;
     justify-content: flex-end;
 }
+
+
+
+section.hero_three{ 
+    background-image: url(/images/hero_three_background.png);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+
+}
+div.hero_three_background{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .7);
+}
+
+
+div.hero_three_container{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding-right: 40%;
+}
+
+h1.list_suggestions{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+li.classification_item{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
