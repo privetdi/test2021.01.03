@@ -50,9 +50,6 @@ body * {
     text-transform: uppercase;
     height: 51px;
 }
-.button.buttonNav{
-    
-}
 
 .button.ghost{
     background: transparent;
@@ -466,9 +463,6 @@ p.services{
     color: #363636;
 }
 
-div.order-contacts{
-}
-
 form.order-contacts{
     padding: 29px 49px;
 }
@@ -558,10 +552,6 @@ p.order-donat{
     max-width: 344px;
 }
 
-button.order{
-    margin: ;
-}
-
 div.conteiner-button{
     display: flex;
     justify-content: flex-end;
@@ -573,7 +563,6 @@ section.hero_three{
     background-image: url(/images/hero_three_background.png);
     background-size: cover;
     height: 707px;
-    padding-top: 194px;
     position: relative;
 
 }
@@ -594,6 +583,8 @@ div.hero_three_container{
     position: relative;
     z-index: 1;
     padding-right: 40%;
+    display: flex;
+    padding: 0;
 }
 
 h1.list_suggestions{
@@ -614,4 +605,38 @@ li.classification_item{
     line-height: 38px;
 
     color: #FFFFFF;
+}
+
+
+div.range-content{
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;       
+    grid-template-rows: repeat(10, 1fr);  
+    grid-gap: 2vw;    
+    }
+    
+img.r-content1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+img.r-content2{
+    grid-column-start: -2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+img.r-content3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+img.r-content4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 10;
 }
