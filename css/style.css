@@ -367,7 +367,7 @@ input.iname, input.iphone{
     display: block;
 }
 
-.container-centr.content{
+.container-centr.content, .specialists{
     display: flex;
     justify-content: space-evenly;
 }
@@ -639,4 +639,51 @@ img.r-content4{
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 10;
+}
+
+h2.recommendation{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636; 
+}
+
+.container-centr.specialists{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-specialists-img{
+    border-radius: 50%;
+}
+
+.container-centr, .specialists{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-centr, .container-text{
+    background-color: green;
+}
+
+.contentinterior{
+    background-color: red;
+    margin: 30px;
+}
+
+p.intaier{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
+
+.button.contentfrom{
+    font-family: 'Yeseva One';
+    font-size: 18px;
+    line-height: 25px;
 }
