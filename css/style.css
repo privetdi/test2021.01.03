@@ -31,7 +31,7 @@ body * {
 }
 
 
-.container {
+div.container-centr.specialists,.container {
    max-width: 1440px;
     margin: 0 auto;
 }
@@ -657,6 +657,7 @@ h2.recommendation{
 }
 .container-specialists-img{
     border-radius: 50%;
+    max-width: 146.41px;
 }
 
 .container-centr, .specialists{
@@ -680,6 +681,7 @@ p.intaier{
     font-size: 13px;
     line-height: 180%;
     color: #959595;
+    max-width: 324.08px;
 }
 
 .button.contentfrom{
@@ -687,3 +689,44 @@ p.intaier{
     font-size: 18px;
     line-height: 25px;
 }
+
+
+
+div.containte-specialist{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    max-width: 376px;
+}
+
+h1.specialist{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 25px;
+}
+
+img.svg-button-specialist{
+
+}
+
+p.button-specialistP{
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.button.specialist.left-button, .button.specialist.right-button{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.container-button-specialist{
+    display: flex;
