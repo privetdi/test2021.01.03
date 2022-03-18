@@ -559,14 +559,14 @@ div.conteiner-button{
 
 
 
-section.hero_three{ 
+div.hero_three_backgroumd{ 
     background-image: url(/images/hero_three_background.png);
     background-size: cover;
     height: 707px;
     position: relative;
 
 }
-div.hero_three_background{
+div.hero_three_background-dark{
         content: '';
         position: absolute;
         top: 0;
@@ -666,7 +666,7 @@ h2.recommendation{
 }
 
 .container-centr, .container-text{
-    background-color: green;
+   /*  background-color: green; */
 }
 
 .contentinterior{
@@ -723,10 +723,53 @@ color: #FFFFFF;
 }
 
 .button.specialist.left-button, .button.specialist.right-button{
+
     display: flex;
     align-items: center;
-    margin: 5px;
+    margin-right: 1px;
+    max-width: 146px;
 }
 
 .container-button-specialist{
     display: flex;
+    Position: absolute;
+    margin-top: -30px;
+
+}
+
+div.content_specialists{
+    background-color: #FFFFFF;
+    margin-bottom: 354px;
+    z-index: 1;
+
+}
+
+div.specialists.backgroudn-city{
+    background-image: url('/images/background_city.png');
+    background-repeat:repeat-x;
+    background-position: bottom;
+
+}
+
+div.specialists.backgroudn-city{
+    position: relative;
+}
+
+div.specialists.backgroudn-city-overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+div.backgroudn-city.backgroudn-city-two{
+    background-image: url('/images/backgroudncitydown.png');
+}
+
+
+
+
