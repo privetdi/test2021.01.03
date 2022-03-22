@@ -31,7 +31,7 @@ body * {
 }
 
 
-div.container-centr.specialists,.container {
+div.container-centr.specialists,.container, .container-centr.four {
    max-width: 1440px;
     margin: 0 auto;
 }
@@ -198,6 +198,7 @@ a, .rnd{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 110px;
 }
 .titleone{
     padding-bottom: 257px;
@@ -768,8 +769,29 @@ div.specialists.backgroudn-city-overlay{
 
 div.backgroudn-city.backgroudn-city-two{
     background-image: url('/images/backgroudncitydown.png');
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
+img.map{
+    max-width: 925px;
+}
 
+div.container-centr.four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.backgroudn-city-overlay{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
 
 
