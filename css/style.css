@@ -502,7 +502,7 @@ input.iname-order, input.iphone-order, input.iemail-order{
     
 }
 
-form.order-contacts, input.iname-order, input.iphone-order, input.iemail-order{
+form.order-contacts, input.iname-order, input.iphone-order, input.iemail-order, .order-contacts-questions{
     background-color: #131313;
     color: #FFFFFF;
     
@@ -666,9 +666,7 @@ h2.recommendation{
     justify-content: space-evenly;
 }
 
-.container-centr, .container-text{
-   /*  background-color: green; */
-}
+
 
 .contentinterior{
     background-color: red;
@@ -780,8 +778,10 @@ img.map{
 
 div.container-centr.four{
     display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 
 div.backgroudn-city-overlay{
@@ -794,4 +794,23 @@ div.backgroudn-city-overlay{
     background-color: rgba(0, 0, 0, .7);
 }
 
+div.questions-container-name-phone{
+    display: flex;
+    
+}
 
+
+form.order-contacts-questions{
+    background-color: #131313;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  34px 181px;
+}
+
+.lemail-order{
+    background-color: #131313;
+    color: #FFFFFF;
+    width: 100%;
+}
