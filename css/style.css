@@ -31,7 +31,7 @@ body * {
 }
 
 
-div.container-centr.specialists,.container, .container-centr.four {
+div.container-centr.specialists,.container, .container-centr.four, .head-content  {
    max-width: 1440px;
     margin: 0 auto;
 }
@@ -61,10 +61,11 @@ div.container-centr.specialists,.container, .container-centr.four {
     color: #E3B873;
 }
 
-.header {
+.header, footer{
     background-color: black;
     
 }
+
 
 .head-content{
     display: flex;
@@ -794,6 +795,10 @@ div.backgroudn-city-overlay{
     background-color: rgba(0, 0, 0, .7);
 }
 
+div.questions{
+    margin-top: -222px;
+}
+
 div.questions-container-name-phone{
     display: flex;
     
@@ -814,3 +819,38 @@ form.order-contacts-questions{
     color: #FFFFFF;
     width: 100%;
 }
+
+div.address{
+    max-width: 589px;
+    text-align: center;
+}
+h1.address{
+    Font-family: 'Yeseva One';
+    Font-style: Regular;
+    Font-size: 20px;
+    Line-height: 27.72px;
+    Line-height: 120%;
+    Align: Center;
+    Vertical-align: Top;
+    color: #E3B873;
+    }
+
+
+div.ins-mail{
+    display: flex;
+    margin-top: 26px;
+    margin-bottom: 43px;
+
+}
+
+div.container-svg-mail-inst{
+    margin-right: 15px;
+    display: flex;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    background-color: #E3B873;
+    justify-content: center;
+    align-items: center;
+}
+
