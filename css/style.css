@@ -374,27 +374,39 @@ input.iname, input.iphone{
     justify-content: space-evenly;
 }
 
+div.content_intaier{
+    position: static;
+    max-width: 392px;
+}
+
 .container-text{
-/*     padding: 38px; */
-    margin-top: -100px;
-    background-color: blue;
+
+    max-width: 330px;
     z-index: 2;
+    position: relative;
+    bottom: 160px;
+    background-color: white;
+    left: 31px;
+    
 }
 
 .contentinterior{
-    background-color: red;
-    margin: 30px;
+
+
+/*     position: absolute;
+    margin-top: ; */
 
 }
 
 p.intaier{
+    padding-top: 25px;
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #363636;
-    margin: 34px 25px;
+    margin-left: 34px;
 }
 
 li.intaier{
@@ -669,18 +681,14 @@ h2.recommendation{
 
 
 
-.contentinterior{
-    background-color: red;
-    margin: 30px;
-}
 
 p.intaier{
-    font-family: 'Nunito Sans';
+    font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 180%;
-    color: #959595;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
     max-width: 324.08px;
 }
 
