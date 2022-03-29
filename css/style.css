@@ -176,7 +176,7 @@ li.header-navigation__item:not(:first-child):not(:last-child) {
 .hero-container {
     position: relative;
     z-index: 1;
-    padding-right: 40%;
+    padding-right: 30%;
     padding-left: 18px;
 }
 a, .rnd{
@@ -373,6 +373,12 @@ h1.town{
 }
 h3.article{
     max-width: 681px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
 }
 
 .line.dash{
@@ -451,6 +457,7 @@ p.intaier{
     line-height: 25px;
     color: #363636;
     margin-left: 34px;
+    
 }
 
 li.intaier{
@@ -726,14 +733,16 @@ h2.recommendation{
 
 
 
-p.intaier{
-    font-family: 'Yeseva One';
+p.intaier-specialist{
+    font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    color: #363636;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
     max-width: 324.08px;
+    margin-top: 21px;
+    margin-bottom: 50px;
 }
 
 .button.contentfrom{
