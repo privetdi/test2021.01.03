@@ -63,6 +63,36 @@
         background-color: #131313;
     }
 
+    div.container-centr.content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.content_intaier, img.container-img{
+        width: 100%;
+    }
+    div.content_intaier{
+        padding: 18px;
+    }
+    div.container-text{
+        width:  70%;
+    }
+    .intaier{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        color: #959595;  
+    }
+
+    div.order-services{
+        display: none;
+    }
+    section.hero_three{
+        display: none;
+    }
+
 
 
     /* TEXT */
@@ -70,16 +100,28 @@
     h3.article{
         color:  #FFFFFF;
     }
+    h1.list_suggestions{
+        text-align: center;
+    }
+
+
 
   }
 
 @media (min-width: 769px) { 
    
-    .adaptive-none{
+    .adaptive-none, .adaptive{
         display: none;
     }
     .carousel-button{
         display: flex;
+    }
+
+    div.div.content_intaier{
+        max-width: 392px;
+    }
+    div.container-text{
+        max-width: 330px;
     }
 
   }
@@ -470,12 +512,9 @@ input.iname, input.iphone{
 
 div.content_intaier{
     position: static;
-    max-width: 392px;
 }
 
 .container-text{
-
-    max-width: 330px;
     z-index: 2;
     position: relative;
     bottom: 160px;
