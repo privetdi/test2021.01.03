@@ -115,6 +115,9 @@
         text-align: center;
     }
 
+    p.personaldata{
+        color: #FFFFFF;
+    }
 
 
   }
@@ -138,7 +141,9 @@
     div.backgroudn-city.backgroudn-city-two{
         background-image: url('/images/backgroudncitydown.png');
     }
-
+    p.personaldata{
+        color: #181818;
+    }
 
   }
 
@@ -1013,3 +1018,10 @@ div.container-svg-mail-inst{
     align-items: center;
 }
 
+p.personaldata{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+}
