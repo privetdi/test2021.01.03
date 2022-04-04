@@ -20,7 +20,7 @@
 
 
 @media (max-width: 768px) { 
-    li.header-navigation__item, button.buttonNav, .carousel-button{
+    li.header-navigation__item, button.buttonNav, .carousel-button, .order-call, .backgroudn-city-overlay{
       display: none;
      }
      .container.hero-container{
@@ -93,6 +93,17 @@
         display: none;
     }
 
+    div.backgroudn-city.backgroudn-city-two{
+        background-color: #131313;
+        background-image: none;
+    }
+
+    form.contactsuser{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
 
 
     /* TEXT */
@@ -113,7 +124,7 @@
     .adaptive-none, .adaptive{
         display: none;
     }
-    .carousel-button{
+    .carousel-button, .order-call{
         display: flex;
     }
 
@@ -123,6 +134,11 @@
     div.container-text{
         max-width: 330px;
     }
+
+    div.backgroudn-city.backgroudn-city-two{
+        background-image: url('/images/backgroudncitydown.png');
+    }
+
 
   }
 
@@ -503,6 +519,7 @@ input.iname, input.iphone{
     border-bottom-style: solid;
     margin-right: 58px;
     display: block;
+    background: rgba( 0,0,0,0);
 }
 
 .container-centr.content, .specialists{
@@ -559,7 +576,6 @@ li.intaier{
 }
 
 div.order-call{
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
   max-width: 1440px;
@@ -911,7 +927,6 @@ div.specialists.backgroudn-city-overlay{
 
 
 div.backgroudn-city.backgroudn-city-two{
-    background-image: url('/images/backgroudncitydown.png');
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
